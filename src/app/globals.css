@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  background-color:#ffffff;
+  flex-wrap: wrap;
+  
+  
+}
+
+  #img-box{
+    margin-left: 25px;
+  }
+  #ghost-box{
+    width: 180px;
+  }
+  #genpro{
+    width: auto;
+    height: auto;
+    border: 10px transparent;
+    border-radius: 5px;
+    margin:20px;
+  }
+  #headerbox{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #titulo-header h1{
+    color: #006FFD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 3px 3px 3px rgba(131, 131, 131, 0.521);
+    font-size: 55px;
+    
+  }
+  #titulo-header h2{
+    color: #006FFD;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 3px 3px 3px rgba(165, 165, 165, 0.521);
+    font-size: 30px
+
+  }
+
+.container {
+  display: flex;
+  margin: auto;
+  width: 85%;
+}
+
+#divisor{
+  background-color: black;
+  height: 1px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.856);
+}
+
+
+section{
+  margin: 25px;
+  background-color: #fdfdfd;
+}
+section p{
+  color:#373737;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin:12px 0;
+
+}
+
+span {
+  color:#373737;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin:12px 0;
+
+}
+section ul{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section h3,
+section h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#373737;
+  margin: 20px 0;
+}
+
+section h2{
+  font-size: 35px;
+}
+
+li {
+  margin-left: 30px;
+  color:#373737;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #cacaca;
+  padding: 25px;
+}
+#rodape-text h4{
+  color:#747474;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+@media (max-width: 575px)
+{
+  .container {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    
+  }
+  #genpro{
+    width: 100px;
+  }
+  #titulo-header h1{
+    font-size: 25px;
+  }
+  #titulo-header h2 {
+    font-size: 20px;
+  }
+  
+}
